@@ -1,4 +1,17 @@
-class Solution {
+import java.util.*;
+
+public class LongestCommonPrefix {
+    public static void main(String[] args) {
+        LongestCommonPrefix solution = new LongestCommonPrefix();
+        String[] strs1 = {"flower", "flow", "flight"};
+        System.out.println("Input: [\"flower\",\"flow\",\"flight\"]");
+        System.out.println("Output: " + solution.LongestCommonPrefix(strs1));
+        
+        String[] strs2 = {"dog", "racecar", "car"};
+        System.out.println("Input: [\"dog\",\"racecar\",\"car\"]");
+        System.out.println("Output: " + solution.LongestCommonPrefix(strs2));
+    }
+
     public String LongestCommonPrefix(String[] strs) {
 
         // Traverse each character of the first string
