@@ -1,5 +1,5 @@
 class Solution {
-    public String longestCommonPrefix(String[] strs) {
+    public String LongestCommonPrefix(String[] strs) {
 
         // Traverse each character of the first string
         for (int i = 0; i < strs[0].length(); i++) {
