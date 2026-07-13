@@ -46,3 +46,9 @@ To provide a simple and organized way to practice DSA topics efficiently.
 3. Click and solve on LeetCode  
 
 ---
+
+## 📚 Questions Done
+
+### Array
+- Longest Common Prefix ([LongestCommonPrefix.java](array/LongestCommonPrefix.java))
+- Two Sum ([TwoSumBruteForce.java](array/TwoSumBruteForce.java), [TwoSumHashMaps.java](array/TwoSumHashMaps.java))
