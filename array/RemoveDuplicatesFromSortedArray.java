@@ -5,7 +5,7 @@ public class RemoveDuplicatesFromSortedArray {
         RemoveDuplicatesFromSortedArray solution = new RemoveDuplicatesFromSortedArray();
         int[] nums = {1, 1, 2, 2, 3, 4, 4};
         System.out.println("Input array: " + Arrays.toString(nums));
-        int k = solution.RemoveDuplicatesFromSortedArray(nums);
+        int k = solution.removeDuplicatesFromSortedArray(nums);
         System.out.println("Number of unique elements: " + k);
         System.out.print("Modified array: [");
         for (int i = 0; i < k; i++) {
@@ -14,7 +14,7 @@ public class RemoveDuplicatesFromSortedArray {
         System.out.println("]");
     }
 
-    public int RemoveDuplicatesFromSortedArray(int[] nums) {
+    public int removeDuplicatesFromSortedArray(int[] nums) {
 
         // 'i' points to the last unique element found.
         // Initially, the first element is always unique.
